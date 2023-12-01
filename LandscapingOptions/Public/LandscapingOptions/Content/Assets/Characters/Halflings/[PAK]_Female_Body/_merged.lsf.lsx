@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="2" lslib_meta="v1,bswap_guids" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<!-- MaterialID:
+				Pubes: 79c3b32b-a243-b949-4aea-4ff285d50fca (There are other options with different density or that only come in black but these are the best imo)
+				Uncut:
+				Halflings: ad43d0f8-462c-9dd3-6283-b682986b4f09
+				Gnome: 7a356c17-aff6-c532-bc19-c63ed294b14c
+				Tiefling: 68c4fb93-a8e1-2a2b-d19c-0ffa853bc365
+				Human: ffd51198-92dc-e904-5771-48e60675b0e8
+				Elf: 47aa6d48-c209-4e04-bcb2-dbbae68df2ec
+				Half-Orc: 51d4a9eb-1d28-a6fb-1b6d-6d8d30064253
+				Cut:
+				Halflings: 759a966a-00d8-f1fb-0257-8a000cce71f5
+				Tiefling: 20a0a85b-dbed-87e5-965b-baf1b0dc9f38
+				Human: bae94d55-bb72-c4d8-9bf6-0391dadb7f60
+				Elf: bb69bba9-be10-9a23-20b3-18725d4e35cd
+				Dwarf: da8311de-fd7d-2012-d853-99cfa07a9dfc
+				Half-Orc: 8857e818-45a9-f460-0181-d3cecf12eed5
+				If you need other materials, find them in the game's data. I can't do all the work. -->
+
+
+
+				<node id="Resource"> <!-- HFL F ThinHair -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.04660766 1.031223 0.05886364" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.04640537 0.8961504 -0.1221507" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="8f234279-a95b-0dba-d2d4-2aa9fed3b8f2" /> <!-- Info for pubes. Leave this empty ("") if no (3D) pubes. -->
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="aeed581d-02b7-485f-b2dc-3357eb186376" /> <!-- Unique ID for combined visual information, generated in Modders' Multitool -->
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HFL_F_NKD_Body_Genital_A_ThinHair" /> <!-- Filename for your model without the extension -->
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Private Parts" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Halflings/_Female/Resources/HFL_F_NKD_Body_Genital_A_ThinHair.GR2" /> <!-- File location for your model. You can reuse the same file for races with identical body types. -->
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Halflings/_Female/Resources/HFL_F_NKD_Body_Genital_A_ThinHair.Dummy_Root.0" /> <!-- Same as above but change the extension -->
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="bc299bb1-f033-3d89-dcc0-c00b4b6f61d8" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_ThinHair.HFL_F_NKD_Body_Genital_A_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="79c3b32b-a243-b949-4aea-4ff285d50fca" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_ThinHair.HFL_F_NKD_Body_Genital_A_Pubes_Mesh.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="bc299bb1-f033-3d89-dcc0-c00b4b6f61d8" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_ThinHair.HFL_F_NKD_Body_Genital_A_Mesh_LOD1.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="79c3b32b-a243-b949-4aea-4ff285d50fca" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_ThinHair.HFL_F_NKD_Body_Genital_A_Pubes_Mesh_LOD1.3" />
+						</node>
+					</children>
+
+				</node>
+				<node id="Resource"> <!-- HFL F WideHair -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.04660766 1.031223 0.05886364" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.04640537 0.8961504 -0.1221507" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="8f234279-a95b-0dba-d2d4-2aa9fed3b8f2" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="d57bb534-bc67-4d4e-9478-ca8b8a6736fa" /> <!-- Unique ID for combined visual information, generated in Modders' Multitool -->
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HFL_F_NKD_Body_Genital_A_WideHair" /> <!-- Filename for your model without the extension -->
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Private Parts" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Halflings/_Female/Resources/HFL_F_NKD_Body_Genital_A_WideHair.GR2" /> <!-- File location for your model. You can reuse the same file for races with identical body types. -->
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Halflings/_Female/Resources/HFL_F_NKD_Body_Genital_A_WideHair.Dummy_Root.0" /> <!-- Same as above but change the extension -->
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="bc299bb1-f033-3d89-dcc0-c00b4b6f61d8" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_WideHair.HFL_F_NKD_Body_Genital_A_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="79c3b32b-a243-b949-4aea-4ff285d50fca" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_WideHair.HFL_F_NKD_Body_Genital_A_Pubes_Mesh.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="bc299bb1-f033-3d89-dcc0-c00b4b6f61d8" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_WideHair.HFL_F_NKD_Body_Genital_A_Mesh_LOD1.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="79c3b32b-a243-b949-4aea-4ff285d50fca" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_WideHair.HFL_F_NKD_Body_Genital_A_Pubes_Mesh_LOD1.3" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource"> <!-- HFL F TriangleHair -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.04660766 1.031223 0.05886364" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.04640537 0.8961504 -0.1221507" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="8f234279-a95b-0dba-d2d4-2aa9fed3b8f2" /> 
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="391f2ad2-7913-4e00-b1dd-554a8fa550d3" /> <!-- Unique ID for combined visual information, generated in Modders' Multitool -->
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HFL_F_NKD_Body_Genital_A_TriangleHair" /> <!-- Filename for your model without the extension -->
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Private Parts" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Halflings/_Female/Resources/HFL_F_NKD_Body_Genital_A_TriangleHair.GR2" /> <!-- File location for your model. You can reuse the same file for races with identical body types. -->
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Halflings/_Female/Resources/HFL_F_NKD_Body_Genital_A_TriangleHair.Dummy_Root.0" /> <!-- Same as above but change the extension -->
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="bc299bb1-f033-3d89-dcc0-c00b4b6f61d8" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_TriangleHair.HFL_F_NKD_Body_Genital_A_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="79c3b32b-a243-b949-4aea-4ff285d50fca" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_TriangleHair.HFL_F_NKD_Body_Genital_A_Pubes_Mesh.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="bc299bb1-f033-3d89-dcc0-c00b4b6f61d8" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_TriangleHair.HFL_F_NKD_Body_Genital_A_Mesh_LOD1.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="79c3b32b-a243-b949-4aea-4ff285d50fca" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_TriangleHair.HFL_F_NKD_Body_Genital_A_Pubes_Mesh_LOD1.3" />
+						</node>
+					</children>
+				</node>				
+				<node id="Resource"> <!-- HFL F HornsHair -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.04660766 1.031223 0.05886364" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.04640537 0.8961504 -0.1221507" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="8f234279-a95b-0dba-d2d4-2aa9fed3b8f2" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="13e63a29-1d14-4e25-8155-3bfdd898e2d4" /> <!-- Unique ID for combined visual information, generated in Modders' Multitool -->
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HFL_F_NKD_Body_Genital_A_HornsHair" /> <!-- Filename for your model without the extension -->
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Private Parts" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Halflings/_Female/Resources/HFL_F_NKD_Body_Genital_A_HornsHair.GR2" /> <!-- File location for your model. You can reuse the same file for races with identical body types. -->
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Halflings/_Female/Resources/HFL_F_NKD_Body_Genital_A_HornsHair.Dummy_Root.0" /> <!-- Same as above but change the extension -->
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="bc299bb1-f033-3d89-dcc0-c00b4b6f61d8" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_HornsHair.HFL_F_NKD_Body_Genital_A_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="79c3b32b-a243-b949-4aea-4ff285d50fca" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_HornsHair.HFL_F_NKD_Body_Genital_A_Pubes_Mesh.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="bc299bb1-f033-3d89-dcc0-c00b4b6f61d8" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_HornsHair.HFL_F_NKD_Body_Genital_A_Mesh_LOD1.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="79c3b32b-a243-b949-4aea-4ff285d50fca" />
+							<attribute id="ObjectID" type="FixedString" value="HFL_F_NKD_Body_Genital_A_HornsHair.HFL_F_NKD_Body_Genital_A_Pubes_Mesh_LOD1.3" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
