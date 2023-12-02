@@ -7,7 +7,7 @@
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="d551a985-f678-32bd-8e56-b44ea023d47f" />
+					<attribute id="ID" type="FixedString" value="93ffa711-91b8-4b27-b32d-f4114971d8dd" />
 					<attribute id="Name" type="LSString" value="HUM_FS_NKD_Body_A_CLEA" />
 					<attribute id="SRGB" type="bool" value="False" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Humans/HUM_FS_NKD/Resources/HUM_FS_NKD_Body_A_CLEA.DDS" />
@@ -261,7 +261,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="d0eb3b7b-cb18-40c4-ba1b-12e95ed5bf65" />
+							<attribute id="ID" type="FixedString" value="93ffa711-91b8-4b27-b32d-f4114971d8dd" />
 							<attribute id="ParameterName" type="FixedString" value="CLEA" />
 						</node>
 						<node id="Texture2DParameters">
