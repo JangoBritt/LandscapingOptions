@@ -21,9 +21,69 @@
 
                 WoTD Aasimar : ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e
                 DR Aasimar :   31c1d14f-2a46-4507-b9ba-b993bdffd298
-                
+                Dunmer : cec41b8d-457f-4b2b-a61d-58e20c5c07fb
+                WoTD Changelings: 7c314b07-5475-49bd-ad29-6782b16dc300
+                Dhampir :      3facf6c9-1ee9-4a56-a3e6-bd9528d4b517
+                Genasi :      fc6a34c0-caee-4d25-870a-593ba6d002db
                 -->
 
+<!-- Non-racial Models for DAF -->
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Dual Nipple Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="NakedBody" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="62f853ab-41ba-44bb-805e-6184744cc827" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="f6baf9c7-2d4d-461c-b3fd-793c958c4aed" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Navel Piercing -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf7601599g2fb1g4b38g84dfg67888ed34f24" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="NakedBody" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="858a6f45-a650-45d0-bee7-79f4054f1534" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="321b3e6f-15e4-469d-ac74-4648c831945a" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F VCH -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h71fba31bgc59fg4bd9g9b57gd8456e06e732" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private_Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="9a73e2de-1cc0-41a0-b3f0-8232efce43ee" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="a21c75dd-e765-4631-be73-9ca5fd0aa227" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Dual Nipple Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="NakedBody" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="d47c0814-d100-4946-8cba-80cefbcacd2a" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="fa61bfca-0f02-484d-947e-4c5f59030114" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Navel Piercing -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf7601599g2fb1g4b38g84dfg67888ed34f24" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="NakedBody" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="9dd60629-2185-4221-98bd-d1e4330ae432" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="23b4a559-30b4-47dc-afa7-5ef3a003e5be" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS VCH -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h71fba31bgc59fg4bd9g9b57gd8456e06e732" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private_Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="e16becb9-c9eb-4eca-901a-397d3277e2df" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="cc913945-5a62-4474-98bd-fa4e6051ee63" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+                </node>
+  
+                
 <!-- Human Skinny Female -->
 
                 <node id="CharacterCreationAppearanceVisual"> <!-- HUM F ThinHair -->
@@ -40,7 +100,20 @@
                         </node>
                     </children>
                 </node>
-
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="6699f936-48f5-495f-b62b-2b2d05a1693e" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="abdc0381-74fc-4f1c-8680-cd379e2411b3" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
                 <node id="CharacterCreationAppearanceVisual"> <!-- HUM F WideHair -->
                     <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
                     <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
@@ -77,7 +150,8 @@
                     <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
                     <attribute id="UUID" type="guid" value="55fff397-f1bd-42b4-a330-cfc066e6de1a" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
                     <attribute id="VisualResource" type="guid" value="c49735a4-29ac-4eb5-8b9c-fbb76d912cdb" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
-					<children>
+					
+                    <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
                         </node>
@@ -100,7 +174,20 @@
                         </node>
                     </children>
                 </node>
-
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="6b99afcf-fdd7-4af3-90cb-726009e0ca12" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="abdc0381-74fc-4f1c-8680-cd379e2411b3" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
                 <node id="CharacterCreationAppearanceVisual"> <!-- HUM F WideHair -->
                     <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
                     <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
@@ -161,7 +248,20 @@
                         </node>
                     </children>
                 </node>
-
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="45f4ac10-3c89-4fb2-b37d-f973bb9110c0" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="a0009849-1ed0-4289-828b-8199a915371c" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="abdc0381-74fc-4f1c-8680-cd379e2411b3" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
                 <node id="CharacterCreationAppearanceVisual"> <!-- HUM F WideHair -->
                     <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
                     <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
@@ -221,7 +321,20 @@
                         </node>
                     </children>
                 </node>
-
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="2828c61a-f684-424e-8353-c9112ab2a461" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="abdc0381-74fc-4f1c-8680-cd379e2411b3" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
                 <node id="CharacterCreationAppearanceVisual"> <!-- HUM F WideHair -->
                     <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
                     <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
@@ -276,6 +389,20 @@
                     <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
                     <attribute id="UUID" type="guid" value="2f13cc3b-ed46-47e5-b642-fb877fd4b2a1" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
                     <attribute id="VisualResource" type="guid" value="08344268-9a86-489a-94a9-90549649b7f1" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="06ec6527-137d-4e47-a197-8f0fa6e52f3e" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
 					<children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
@@ -341,6 +468,20 @@
                         </node>
                     </children>
                 </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="5592666c-f24c-4e37-b92b-4709255cde72" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
                 <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS WideHair -->
                     <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
                     <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
@@ -393,6 +534,20 @@
                     <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
                     <attribute id="UUID" type="guid" value="f0460c9e-9f6a-46af-a9b5-62d2f262eb37" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
                     <attribute id="VisualResource" type="guid" value="08344268-9a86-489a-94a9-90549649b7f1" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="45f4ac10-3c89-4fb2-b37d-f973bb9110c0" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="32770e0b-36ad-4d66-81e4-5e184347546d" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
 					<children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
@@ -452,6 +607,20 @@
                     <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
                     <attribute id="UUID" type="guid" value="ed626ece-c4c1-4e75-a057-286d7e6759d6" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
                     <attribute id="VisualResource" type="guid" value="08344268-9a86-489a-94a9-90549649b7f1" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="5ca1e543-55c3-4bc5-95bb-77a28c8cf47f" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
 					<children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
@@ -953,7 +1122,20 @@
                         </node>
                     </children>
                 </node>
-
+                <node id="CharacterCreationAppearanceVisual"> <!-- AAS F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="76084e87-9467-4ebe-a356-9a8259336fcf" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="abdc0381-74fc-4f1c-8680-cd379e2411b3" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
                 <node id="CharacterCreationAppearanceVisual"> <!-- AAS F WideHair -->
                     <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
                     <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
@@ -1008,6 +1190,20 @@
                     <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
                     <attribute id="UUID" type="guid" value="460db591-7832-4ed8-a60e-48707d07b625" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
                     <attribute id="VisualResource" type="guid" value="08344268-9a86-489a-94a9-90549649b7f1" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="46c1731d-cca2-4d69-83d7-12bc0f871c56" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
 					<children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
@@ -1134,6 +1330,20 @@
                         </node>
                     </children>
                 </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="31c1d14f-2a46-4507-b9ba-b993bdffd298" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="e2a2fa59-0a77-4372-bda3-88f5891716f0" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
                 <node id="CharacterCreationAppearanceVisual"> <!-- AAS FS WideHair -->
                     <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
                     <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
@@ -1169,6 +1379,453 @@
                     <attribute id="RaceUUID" type="guid" value="31c1d14f-2a46-4507-b9ba-b993bdffd298" /> <!-- Race -->
                     <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
                     <attribute id="UUID" type="guid" value="900a2e1c-8272-48f2-8c88-a925254cd6e0" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="38a2a71f-829e-4308-bba0-bd138636388e" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+
+
+<!-- Dhampir Skinny Female -->
+
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F ThinHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0dbc76a9g0c37g44ccg846ege610ce2512c5" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="a6555272-a5ff-4c5b-89a7-17314592c5e2" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="6c1d1057-e08d-4827-846d-82b88fd20743" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="8df239ba-c8d1-4bfe-9e6a-ca393f3dbdd6" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="abdc0381-74fc-4f1c-8680-cd379e2411b3" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F WideHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="he6c408a8g41d2g4e40gac96g0e96384ca100" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="70af203a-2c74-44ed-8189-dbf27ec25f73" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4be51320-cf88-4bd8-8f25-3117fcfde0de" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F TriangleHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha2b25403g6e1eg47b0gaf89g48c3b6e7d7d1" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="5142499c-071f-4821-9126-917299e0eab1" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="38d14063-8cfe-4d65-88b8-8883a86f7fea" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F HornsHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha273b799g7196g4a40ga40fgee4b34224f4b" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="32fed1ad-f797-49a1-943b-176f132bcd1c" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="c49735a4-29ac-4eb5-8b9c-fbb76d912cdb" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+
+
+
+<!-- Dhampir Strong Female -->
+
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS ThinHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0dbc76a9g0c37g44ccg846ege610ce2512c5" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="7282b244-17ef-4545-ab2a-72f4a9baa900" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="08344268-9a86-489a-94a9-90549649b7f1" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="638b80b1-f329-45b6-b53d-d5b2f81bc17a" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS WideHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="he6c408a8g41d2g4e40gac96g0e96384ca100" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="b1f01419-0add-4dcf-a066-9c121d3e485e" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="1b996a73-9ebe-4ff0-a1a0-259140f96c43" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS TriangleHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha2b25403g6e1eg47b0gaf89g48c3b6e7d7d1" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="b853e909-e7e1-456d-b799-60a0bb067aa9" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="09e793a5-4318-44ae-8f84-206de0c386ae" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS HornsHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha273b799g7196g4a40ga40fgee4b34224f4b" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="3facf6c9-1ee9-4a56-a3e6-bd9528d4b517" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="382d0880-88ee-4b9e-8991-eecadb1947b7" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="38a2a71f-829e-4308-bba0-bd138636388e" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+
+<!-- Genasi Skinny Female -->
+
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F ThinHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0dbc76a9g0c37g44ccg846ege610ce2512c5" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="0d26d97f-1b0a-4b5b-918f-2db25da58c6a" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="6c1d1057-e08d-4827-846d-82b88fd20743" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="817b9d52-33c5-4fe0-8ec6-bee30b68acfd" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="abdc0381-74fc-4f1c-8680-cd379e2411b3" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F WideHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="he6c408a8g41d2g4e40gac96g0e96384ca100" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="a8d558ea-1357-45c1-8bb2-654cffa77974" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4be51320-cf88-4bd8-8f25-3117fcfde0de" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F TriangleHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha2b25403g6e1eg47b0gaf89g48c3b6e7d7d1" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="2e7046b7-ec49-48d9-9a8f-eeccf0f80dde" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="38d14063-8cfe-4d65-88b8-8883a86f7fea" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F HornsHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6f430a49ga372g4cb3g92cfg739dfc52199e" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="6647a791-7a1c-45bb-b155-5f17be89fdb6" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="c49735a4-29ac-4eb5-8b9c-fbb76d912cdb" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+
+
+
+<!-- Genasi Strong Female -->
+
+
+
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS ThinHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0dbc76a9g0c37g44ccg846ege610ce2512c5" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="d110c1c9-f19b-4430-970c-663b9d7c744b" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="08344268-9a86-489a-94a9-90549649b7f1" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="b2756747-0ef1-48ec-b20f-4c54066f328f" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS WideHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="he6c408a8g41d2g4e40gac96g0e96384ca100" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="c90e5687-39d2-4eb3-ab04-8b7b9cb484df" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="1b996a73-9ebe-4ff0-a1a0-259140f96c43" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS TriangleHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha2b25403g6e1eg47b0gaf89g48c3b6e7d7d1" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="59e0c7eb-65e8-4e3b-84e8-bff56b069469" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="09e793a5-4318-44ae-8f84-206de0c386ae" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS HornsHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6f430a49ga372g4cb3g92cfg739dfc52199e" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="fc6a34c0-caee-4d25-870a-593ba6d002db" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="793ddd13-1be5-4a7d-845b-df6214f745a0" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="38a2a71f-829e-4308-bba0-bd138636388e" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+
+<!-- Dunmer Skinny Female -->
+
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F ThinHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0dbc76a9g0c37g44ccg846ege610ce2512c5" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="12f8d737-6f18-419a-a456-d53184357113" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="6c1d1057-e08d-4827-846d-82b88fd20743" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="b31d2a34-f5a3-49da-a0aa-d664848ad458" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="abdc0381-74fc-4f1c-8680-cd379e2411b3" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F WideHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="he6c408a8g41d2g4e40gac96g0e96384ca100" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="8dbb53a0-7e07-4d5c-a418-5a955a110f71" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4be51320-cf88-4bd8-8f25-3117fcfde0de" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F TriangleHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha2b25403g6e1eg47b0gaf89g48c3b6e7d7d1" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="d57bc038-6a47-43ba-970f-c93503b87d3e" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="38d14063-8cfe-4d65-88b8-8883a86f7fea" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM F HornsHair -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6f430a49ga372g4cb3g92cfg739dfc52199e" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="3c6f155c-1818-4562-a7a1-edcfe97d7f1f" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="c49735a4-29ac-4eb5-8b9c-fbb76d912cdb" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>                                
+
+
+<!-- Dunmer Strong Female -->
+
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS ThinHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0dbc76a9g0c37g44ccg846ege610ce2512c5" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="413cd91f-99e0-4dfd-9fbf-69f98d04b41a" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="08344268-9a86-489a-94a9-90549649b7f1" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="53eb8613-3af0-4b74-bd7d-44209e0e2de3" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="4b5c1e0d-5899-4ffb-bfe0-e482373db225" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS WideHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="he6c408a8g41d2g4e40gac96g0e96384ca100" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="ebfcd8f7-a7d9-4142-93ac-2fbcaf63a75c" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="1b996a73-9ebe-4ff0-a1a0-259140f96c43" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS TriangleHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha2b25403g6e1eg47b0gaf89g48c3b6e7d7d1" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="6747593d-be33-4de2-abe3-4b5175eabe82" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="09e793a5-4318-44ae-8f84-206de0c386ae" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+                <node id="CharacterCreationAppearanceVisual"> <!-- HUM FS HornsHair -->
+                    <attribute id="BodyShape" type="uint8" value="1" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6f430a49ga372g4cb3g92cfg739dfc52199e" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="cec41b8d-457f-4b2b-a61d-58e20c5c07fb" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="fc67669b-f7e1-413a-8131-2a82ff8e4c7c" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
                     <attribute id="VisualResource" type="guid" value="38a2a71f-829e-4308-bba0-bd138636388e" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
 					<children>
                         <node id="Tags">
