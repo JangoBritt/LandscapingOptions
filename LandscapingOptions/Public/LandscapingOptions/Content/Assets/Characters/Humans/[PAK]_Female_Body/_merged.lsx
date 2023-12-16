@@ -523,6 +523,7 @@
 						</node>
 					</children>
 				</node>
+				
 				<node id="Resource"> <!--HUM_FS_NKD_Body_Navel-->
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -614,7 +615,7 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Private_Parts" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Humans/_F_FemaleStrongemale/Resources/HUM_FS_NKD_Body_VCH.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Humans/_FemaleStrong/Resources/HUM_FS_NKD_Body_VCH.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/LandscapingOptions/Assets/Characters/_Models/Humans/_FemaleStrong/Resources/HUM_FS_NKD_Body_VCH.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
