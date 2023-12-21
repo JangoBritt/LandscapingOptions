@@ -23,10 +23,10 @@
                     <attribute id="Tags" type="LSWString" value="" />
                     <attribute id="Type" type="FixedString" value="Add-on" />
                     <attribute id="UUID" type="FixedString" value="e3718f32-fa82-43a1-a438-313dd6a1623e" /> <!-- Make sure this is uniquely generated in the Modder's Multitool! -->
-                    <attribute id="Version64" type="int64" value="37295447299063808" /> <!-- Version number for your mod, can be generated in the Mod Manager -->
+                    <attribute id="Version64" type="int64" value="37436171902517248" /> <!-- Version number for your mod, can be generated in the Mod Manager -->
                     <children>
                         <node id="PublishVersion">
-                            <attribute id="Version64" type="int64" value="37295447299063808" /> <!-- See above -->
+                            <attribute id="Version64" type="int64" value="37436171902517248" /> <!-- See above -->
                         </node>
                         <node id="Scripts" />
                         <node id="TargetModes">

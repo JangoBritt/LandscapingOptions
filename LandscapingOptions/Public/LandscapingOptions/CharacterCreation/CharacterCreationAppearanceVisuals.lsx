@@ -23,8 +23,9 @@
                 DR Aasimar :   31c1d14f-2a46-4507-b9ba-b993bdffd298
                 Dunmer : cec41b8d-457f-4b2b-a61d-58e20c5c07fb
                 WoTD Changelings: 7c314b07-5475-49bd-ad29-6782b16dc300
-                Dhampir :      3facf6c9-1ee9-4a56-a3e6-bd9528d4b517
-                Genasi :      fc6a34c0-caee-4d25-870a-593ba6d002db
+                Dhampir : 3facf6c9-1ee9-4a56-a3e6-bd9528d4b517
+                Genasi : fc6a34c0-caee-4d25-870a-593ba6d002db
+                Satyr : bbd53b24-e4cc-4a33-8dc9-1385f531ea02
                 -->
 
 <!-- Non-racial Models for DAF -->
@@ -1833,6 +1834,25 @@
                         </node>
                     </children>
                 </node>
+
+
+<!-- Satyr Female -->
+
+                <node id="CharacterCreationAppearanceVisual"> <!-- SAT F Piercings -->
+                    <attribute id="BodyShape" type="uint8" value="0" /> <!-- 0 = Average, 1 = Strong -->
+                    <attribute id="BodyType" type="uint8" value="1" /> <!-- 0 = Male, 1 = Female -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3f80cdfdg8f4cg4f3ag8cddg38bd6f81cff9" version="1" /> <!-- Name for your genital option, established in XXX.loca.xml -->
+                    <attribute id="RaceUUID" type="guid" value="bbd53b24-e4cc-4a33-8dc9-1385f531ea02" /> <!-- Race -->
+                    <attribute id="SlotName" type="FixedString" value="Private Parts" /> <!-- What Slot the option goes in -->
+                    <attribute id="UUID" type="guid" value="fc1ed9ea-dbb6-4419-93be-0274bc296708" /> <!-- Unique ID for each option, generated in Modders' Multitool -->
+                    <attribute id="VisualResource" type="guid" value="578d999a-71c9-40a4-b0ee-3c29f540f4ff" /> <!-- Visual information (mesh, textures, etc.) for your genital option, established in _merged.lsf.lsx -->
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a0738fdf-ca0c-446f-a11d-6211ecac3291" /> <!-- Tags genital option as penis or vulva. IDK what the vulva one is and don't feel like finding it sorry. -->
+                        </node>
+                    </children>
+                </node>
+
 
 <!-- End -->
 
