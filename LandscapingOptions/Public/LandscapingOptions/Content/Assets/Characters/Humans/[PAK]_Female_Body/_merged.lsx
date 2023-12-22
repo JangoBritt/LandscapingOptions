@@ -204,17 +204,17 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="2" />
-							<attribute id="MaterialID" type="FixedString" value="fc211abc-b97d-b3d8-5241-cd2055f43ed7" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_Genital_A_Piercings_all.HUM_F_Barbell_A_L_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="3" />
-							<attribute id="MaterialID" type="FixedString" value="5b7b78ee-215a-4845-a1db-cd5c8d80499e" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_Genital_A_Piercings_all.PRC_Barbarian_Tiger_Gem_L_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="4" />
-							<attribute id="MaterialID" type="FixedString" value="5b7b78ee-215a-4845-a1db-cd5c8d80499e" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_Genital_A_Piercings_all.HUM_F_NKD_Body_VCH.0" />
 						</node>
 					</children>
@@ -250,7 +250,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5b7b78ee-215a-4845-a1db-cd5c8d80499e" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_Navel.PRC_Barbarian_Tiger_Gem_L_Mesh.0" />
 						</node>
 					</children>
@@ -286,7 +286,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5b7b78ee-215a-4845-a1db-cd5c8d80499e" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_Dual_Nips.HUM_F_Barbell_A_L_Mesh.0" />
 						</node>
 					</children>
@@ -322,7 +322,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5b7b78ee-215a-4845-a1db-cd5c8d80499e" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_VCH.HUM_F_NKD_Body_VCH.0" />
 						</node>
 					</children>
@@ -528,17 +528,17 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="2" />
-							<attribute id="MaterialID" type="FixedString" value="fc211abc-b97d-b3d8-5241-cd2055f43ed7" /> <!--fc211abc-b97d-b3d8-5241-cd2055f43ed7-->
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" /> <!--fc211abc-b97d-b3d8-5241-cd2055f43ed7-->
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Body_Genital_A_Piercings_all.HUM_FS_Barbell_A_L_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="3" />
-							<attribute id="MaterialID" type="FixedString" value="5b7b78ee-215a-4845-a1db-cd5c8d80499e" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Body_Genital_A_Piercings_all.PRC_Barbarian_Tiger_Gem_L_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="4" />
-							<attribute id="MaterialID" type="FixedString" value="5b7b78ee-215a-4845-a1db-cd5c8d80499e" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Body_Genital_A_Piercings_all.HUM_F_NKD_Body_VCH.0" />
 						</node>
 					</children>
@@ -575,7 +575,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="5b7b78ee-215a-4845-a1db-cd5c8d80499e" />
+							<attribute id="MaterialID" type="FixedString" value="898d616f-f84c-46ba-9696-cd24cf56d889" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Body_Navel.PRC_Barbarian_Tiger_Gem_L_Mesh.0" />
 						</node>
 					</children>
@@ -712,40 +712,6 @@
 					<attribute id="Name" type="LSString" value="LsO_Piercing_Metal" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE_VertCut.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
-						<children>
-							<node id="ScalarParameters">
-								<attribute id="BaseValue" type="float" value="0" />
-								<attribute id="Enabled" type="bool" value="False" />
-								<attribute id="ExportAsPreset" type="bool" value="False" />
-								<attribute id="GroupName" type="FixedString" value="" />
-								<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
-								<attribute id="Value" type="float" value="0" />
-							</node>
-							<node id="ScalarParameters">
-								<attribute id="BaseValue" type="float" value="0.5" />
-								<attribute id="Enabled" type="bool" value="False" />
-								<attribute id="ExportAsPreset" type="bool" value="True" />
-								<attribute id="GroupName" type="FixedString" value="" />
-								<attribute id="ParameterName" type="FixedString" value="Reflectance" />
-								<attribute id="Value" type="float" value="0.5" />
-							</node>
-							<node id="Texture2DParameters">
-								<attribute id="Enabled" type="bool" value="False" />
-								<attribute id="ExportAsPreset" type="bool" value="True" />
-								<attribute id="GroupName" type="FixedString" value="" />
-								<attribute id="ID" type="FixedString" value="9dc5807b-3697-4b8f-ab0f-b9c5c1bd7010" />
-								<attribute id="IgnoreTexelDensity" type="bool" value="True" />
-								<attribute id="ParameterName" type="FixedString" value="" />
-							</node>
-							<node id="VirtualTextureParameters">
-								<attribute id="Enabled" type="bool" value="True" />
-								<attribute id="ExportAsPreset" type="bool" value="True" />
-								<attribute id="GroupName" type="FixedString" value="Texture Map" />
-								<attribute id="ID" type="FixedString" value="8d219173-0ee2-7fc7-a9c5-8b82d9d6443d" />
-								<attribute id="Index" type="int32" value="0" />
-								<attribute id="ParameterName" type="FixedString" value="virtualtexture" />
-							</node>
-						</children>
 				</node>
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
